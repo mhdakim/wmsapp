@@ -1,0 +1,27 @@
+name: wms
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^1.0.0  # Add this line correctly under dependencies
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add the assets folder to include the logo
+  assets:
+    - lib/assets/logo.png
+    - lib/assets/box-arrow-right.svg  # Add this line to include the SVG asset
